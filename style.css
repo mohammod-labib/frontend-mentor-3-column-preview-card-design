@@ -48,10 +48,12 @@ body{
     margin-bottom: 36px;
     line-height: 1.5;
 }
-
+.box a:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+}
 .box a{
     margin-top: 20px;
-    color: hsl(0, 0%, 95%);
     font-size: 15px;
     font-family: 'LexendDeca', sans-serif;
      font-weight: 400;
@@ -67,15 +69,15 @@ body{
      transition: 500ms ease;
 }
 
-.box1 a:hover{
+.box1 a{
     background-color: white;
     color:hsl(31, 77%, 52%);
 }
-.box2 a:hover{
+.box2 a{
     background-color: white;
     color:hsl(184, 100%, 22%);
 }
-.box3 a:hover{
+.box3 a{
     background-color: white;
     color:hsl(179, 100%, 13%);
 }
