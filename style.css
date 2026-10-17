@@ -1,5 +1,6 @@
 body{
     padding: 130px 240px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 @font-face {
